@@ -11,6 +11,18 @@
 		9E90125A2A37966A005BA328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012592A37966A005BA328 /* ContentView.swift */; };
 		9E90125C2A37966B005BA328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E90125B2A37966B005BA328 /* Assets.xcassets */; };
 		9E90125F2A37966B005BA328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E90125E2A37966B005BA328 /* Preview Assets.xcassets */; };
+		9E90126F2A3796ED005BA328 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012662A3796ED005BA328 /* Config.swift */; };
+		9E9012732A3796ED005BA328 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90126A2A3796ED005BA328 /* Constants.swift */; };
+		9E90127A2A379F2D005BA328 /* NavigationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012792A379F2D005BA328 /* NavigationRowView.swift */; };
+		9E90127C2A37B7B1005BA328 /* StockDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90127B2A37B7B1005BA328 /* StockDetails.swift */; };
+		9E90127E2A37B9E1005BA328 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90127D2A37B9E1005BA328 /* StockView.swift */; };
+		9E9012802A37BA44005BA328 /* StockFetchContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90127F2A37BA44005BA328 /* StockFetchContoller.swift */; };
+		9E9012822A37BA9A005BA328 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012812A37BA9A005BA328 /* StockViewModel.swift */; };
+		9E9012842A37CA50005BA328 /* ExampleStock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E9012832A37CA50005BA328 /* ExampleStock.json */; };
+		9E9012862A38CF20005BA328 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012852A38CF20005BA328 /* CircleImage.swift */; };
+		9E9012892A3A2229005BA328 /* AddStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9012882A3A2229005BA328 /* AddStock.swift */; };
+		9E90128B2A3A3769005BA328 /* AddTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90128A2A3A3769005BA328 /* AddTickerView.swift */; };
+		9E90128D2A3A4BA3005BA328 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90128C2A3A4BA3005BA328 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,19 @@
 		9E9012592A37966A005BA328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E90125B2A37966B005BA328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E90125E2A37966B005BA328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E9012662A3796ED005BA328 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = "Outer Worlds/Config.swift"; sourceTree = SOURCE_ROOT; };
+		9E90126A2A3796ED005BA328 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "Outer Worlds/Constants.swift"; sourceTree = SOURCE_ROOT; };
+		9E9012792A379F2D005BA328 /* NavigationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRowView.swift; sourceTree = "<group>"; };
+		9E90127B2A37B7B1005BA328 /* StockDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetails.swift; sourceTree = "<group>"; };
+		9E90127D2A37B9E1005BA328 /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
+		9E90127F2A37BA44005BA328 /* StockFetchContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFetchContoller.swift; sourceTree = "<group>"; };
+		9E9012812A37BA9A005BA328 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		9E9012832A37CA50005BA328 /* ExampleStock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExampleStock.json; sourceTree = "<group>"; };
+		9E9012852A38CF20005BA328 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9E9012872A3A1675005BA328 /* Outer-Worlds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Outer-Worlds-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9E9012882A3A2229005BA328 /* AddStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStock.swift; sourceTree = "<group>"; };
+		9E90128A2A3A3769005BA328 /* AddTickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTickerView.swift; sourceTree = "<group>"; };
+		9E90128C2A3A4BA3005BA328 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +76,21 @@
 		9E9012562A37966A005BA328 /* Outer Worlds */ = {
 			isa = PBXGroup;
 			children = (
+				9E9012872A3A1675005BA328 /* Outer-Worlds-Info.plist */,
+				9E9012832A37CA50005BA328 /* ExampleStock.json */,
 				9E9012572A37966A005BA328 /* Outer_WorldsApp.swift */,
+				9E9012662A3796ED005BA328 /* Config.swift */,
+				9E90126A2A3796ED005BA328 /* Constants.swift */,
+				9E90127F2A37BA44005BA328 /* StockFetchContoller.swift */,
+				9E90127B2A37B7B1005BA328 /* StockDetails.swift */,
+				9E90127D2A37B9E1005BA328 /* StockView.swift */,
+				9E9012852A38CF20005BA328 /* CircleImage.swift */,
+				9E9012812A37BA9A005BA328 /* StockViewModel.swift */,
 				9E9012592A37966A005BA328 /* ContentView.swift */,
+				9E9012882A3A2229005BA328 /* AddStock.swift */,
+				9E90128A2A3A3769005BA328 /* AddTickerView.swift */,
+				9E9012792A379F2D005BA328 /* NavigationRowView.swift */,
+				9E90128C2A3A4BA3005BA328 /* Utilities.swift */,
 				9E90125B2A37966B005BA328 /* Assets.xcassets */,
 				9E90125D2A37966B005BA328 /* Preview Content */,
 			);
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E90125F2A37966B005BA328 /* Preview Assets.xcassets in Resources */,
+				9E9012842A37CA50005BA328 /* ExampleStock.json in Resources */,
 				9E90125C2A37966B005BA328 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +176,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E90126F2A3796ED005BA328 /* Config.swift in Sources */,
+				9E90127A2A379F2D005BA328 /* NavigationRowView.swift in Sources */,
+				9E9012892A3A2229005BA328 /* AddStock.swift in Sources */,
+				9E9012802A37BA44005BA328 /* StockFetchContoller.swift in Sources */,
+				9E90128D2A3A4BA3005BA328 /* Utilities.swift in Sources */,
 				9E90125A2A37966A005BA328 /* ContentView.swift in Sources */,
 				9E9012582A37966A005BA328 /* Outer_WorldsApp.swift in Sources */,
+				9E90127E2A37B9E1005BA328 /* StockView.swift in Sources */,
+				9E90127C2A37B7B1005BA328 /* StockDetails.swift in Sources */,
+				9E90128B2A3A3769005BA328 /* AddTickerView.swift in Sources */,
+				9E9012732A3796ED005BA328 /* Constants.swift in Sources */,
+				9E9012822A37BA9A005BA328 /* StockViewModel.swift in Sources */,
+				9E9012862A38CF20005BA328 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +320,11 @@
 				DEVELOPMENT_TEAM = SUZLRMCN8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Outer-Worlds-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +349,11 @@
 				DEVELOPMENT_TEAM = SUZLRMCN8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Outer-Worlds-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
